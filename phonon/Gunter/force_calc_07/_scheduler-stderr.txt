@@ -1,0 +1,9 @@
+Unloading compilers/intel/2017/update1
+  ERROR: compilers/intel/2017/update1 cannot be unloaded due to a prereq.
+    HINT: Might try "module unload mpi/intel/2017/update1/intel
+    vasp/5.4.4-18apr2017/intel-2017-update1" first.
+
+Unloading mpi/intel/2017/update1/intel
+  ERROR: mpi/intel/2017/update1/intel cannot be unloaded due to a prereq.
+    HINT: Might try "module unload vasp/5.4.4-18apr2017/intel-2017-update1"
+    first.

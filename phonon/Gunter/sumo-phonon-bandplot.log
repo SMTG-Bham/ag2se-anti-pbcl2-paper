@@ -1,0 +1,38 @@
+/home/bonan/miniconda3/envs/aiida-1.0-py3/bin/sumo-phonon-bandplot --dim 2 2 3 -b BORN --symprec 1e-5
+Using supercell with dimensions:
+	[[2. 0. 0.]
+	 [0. 2. 0.]
+	 [0. 0. 3.]]
+
+Calculating force constants...
+Structure information:
+	Space group number: 3
+	International symbol: P2
+	Lattice type: monoclinic
+
+k-point path:
+	\Gamma -> Z -> C -> Y -> \Gamma -> B -> D -> E0 -> A0 -> Y
+
+k-points:
+	\Gamma: 0.0 0.0 0.0
+	C: 0.5 0.5 0.0
+	B: 0.0 0.0 0.5
+	D: 0.0 0.5 0.5
+	A0: 0.5 0.0 0.5
+	Y: 0.5 0.0 0.0
+	Z: 0.0 0.5 0.0
+	E0: 0.5 0.5 0.5
+
+Label positions:
+	0.0000: $\Gamma$
+	0.0726: Z
+	0.1440: C
+	0.2167: Y
+	0.2880: $\Gamma$
+	0.3911: B
+	0.4638: D
+	0.5351: E0
+	0.6078: A0
+	0.7109: Y
+findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+findfont: Generic family 'sans-serif' not found because none of the following families were found: Whitney Book Extended, Catamaran, Helvetica, Liberation Sans, Andale Sans, Arial

@@ -1,0 +1,47 @@
+ 
+######################################################################
+data_santamaria-perez_stp
+
+# phase info for santamaria-perez_stp follows
+_pd_phase_name  santamaria-perez_stp
+_cell_length_a  4.318263
+_cell_length_b  7.032996
+_cell_length_c  8.237983
+_cell_angle_alpha  90
+_cell_angle_beta   101.3723
+_cell_angle_gamma  90
+_cell_volume  245.278
+_exptl_crystal_density_diffrn  7.9804
+_symmetry_cell_setting  monoclinic
+_symmetry_space_group_name_H-M  "P 21/n"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  1/2-x,1/2+y,1/2-z
+     3  -x,-y,-z
+     4  1/2+x,1/2-y,1/2+z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_symmetry_multiplicity
+Ag1    Ag   0.7499(32)  0.0259(18)  0.3393(20)  1.000      Uiso 0.132(10)  4   
+Ag2    Ag   0.2433(28)  0.3589(19)  0.4501(15)  1.000      Uiso 0.118(7)   4   
+Se3    Se   0.3307(24)  0.2435(24)  0.1399(15)  1.000      Uiso 0.065(5)   4   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Ag   8
+  Se   4
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  4
+_chemical_formula_sum  "Ag2 Se"
+_chemical_formula_weight  294.7

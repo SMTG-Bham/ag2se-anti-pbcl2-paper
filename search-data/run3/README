@@ -1,0 +1,5 @@
+Generate structures and relax using constant cutoff set.
+Use incread kpoints sampling - 0.05
+Use incread grid scale - 2, fine grid scale - 3
+
+The purpose is to generate better data for NNP training

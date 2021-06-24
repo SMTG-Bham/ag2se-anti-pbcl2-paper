@@ -1,0 +1,5 @@
+Search for P2/m and P21/c spacegroups as suggested by Bryce and Patrick. 
+Bryce indexed the spcegroup to be P2/m while Patrick conducted refinement and found the structure to be P21/c.
+This search target these two spacegroups, with the fixed lattice parameters from the P2/m indexing.
+
+NOTE: the cell parameters are allowed to change during relaxation - only the initial of the random structures are fixed

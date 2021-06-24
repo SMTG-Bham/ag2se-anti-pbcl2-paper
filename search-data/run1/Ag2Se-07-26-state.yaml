@@ -1,0 +1,45 @@
+descriptors:
+  cmd-desc:
+    soap1:
+      acronym: atomic-to-global-vsycts
+      atomic_descriptor:
+        soap1:
+          acronym: SOAP-n8-l4-c4.5-g0.57
+          atom_gaussian_width: 0.57
+          crossover: true
+          cutoff: 4.5
+          l: 4
+          n: 8
+          periodic: true
+          rbf: gto
+          species: &id001
+          - 34
+          - 47
+          type: SOAP
+      max_atoms: 18
+      periodic: true
+      reducer_function: &id002
+        reducer1:
+          acronym: ''
+          element_wise: false
+          reducer_type: average
+          species: *id001
+      species: *id001
+    soap2:
+      acronym: atomic-to-global-hgqnuj
+      atomic_descriptor:
+        soap2:
+          acronym: SOAP-n8-l4-c3.4-g0.43
+          atom_gaussian_width: 0.43
+          crossover: true
+          cutoff: 3.4
+          l: 4
+          n: 8
+          periodic: true
+          rbf: gto
+          species: *id001
+          type: SOAP
+      max_atoms: 18
+      periodic: true
+      reducer_function: *id002
+      species: *id001
