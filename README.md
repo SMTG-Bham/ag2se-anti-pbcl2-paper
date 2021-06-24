@@ -8,6 +8,7 @@ Content of the repository
 - `ag2se-calcs.aiida` is an AiiDA export file containing all calculation performed and reported in paper with their full provenance. This file can be imported into an AiiDA instance (`aiida-core >= 1.6.3`). Raw data may also be access by simply unzipping the file.
 - `notebooks` contains the notebooks for data analysis and visualisation.
 - `figures` contains the figures in the PNG and the SVG format. The SVG figures are generated using Inkscape.
+- `antiPbCl2like_Ag2Se_laboratory.cif` is the experimental structure generated using a Rietveld refinement of the anti-PbCl2-like structure to Ag2Se.
 
 
 ## Importing data into a new AiiDA Database
