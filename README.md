@@ -1,5 +1,8 @@
 ## Data for paper "On the Crystal Structure of Colloidally Prepared Metastable Ag<sub>2</sub>Se Nanocrystals"
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5028256.svg)](https://doi.org/10.5281/zenodo.5028256)
+
+
 Content of the repository
 
 - `search-data` contains the relaxed structures sampled by ab initio random structure searching (AIRSS).
