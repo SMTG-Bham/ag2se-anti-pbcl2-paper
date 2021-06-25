@@ -1,4 +1,4 @@
 - run1: search using PBE
 - run2: search using PBEsol, focus on the tetragonal system
 - run3: search using PBEsol, use more accurate DFT parameters
-- run4: search using PBEsol, focus on the two spacegroups as proposed by the XRD
+- run4: search using PBEsol, focus on the two spacegroups as proposed by the XRD, increased DFT cut off energy to 340 eV.
